@@ -1,6 +1,7 @@
 .DS_Store
 **/node_modules/**
-Webpack/task_0/dist/main.js
 Webpack/back
 *.txt
-Webpack/task_1/public/*.js
+Webpack/task_*/dist/*.js
+Webpack/task_*/public/*.js
+Webpack/task_*/public/*.jpg
