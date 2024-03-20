@@ -1,3 +1,4 @@
 .DS_Store
 **/node_modules/**
-task_0/dist/main.js
+Webpack/task_0/dist/main.js
+Webpack/back
