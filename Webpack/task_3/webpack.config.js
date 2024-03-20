@@ -1,3 +1,4 @@
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
@@ -26,6 +27,7 @@ module.exports = {
     ],
   },
   devServer: {
+    static: './public',
     port: 8564,
   },
   optimization: {
@@ -37,5 +39,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Webpack Output',
     }),
+    new CleanWebpackPlugin(),
   ],
 };
