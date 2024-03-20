@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import debounce from 'lodash.debounce';
+import _ from 'lodash';
 
 function element({ e, text, id }) {
   const elm = document.createElement(e);
@@ -26,7 +26,7 @@ function updateCounter() {
   elm.innerHTML = `${count} clicks on the button`;
 }
 
-document.getElementsByTagName('button')[0].onclick = debounce(
+document.getElementsByTagName('button')[0].onclick = _.debounce(
   updateCounter,
   500
 );
