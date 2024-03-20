@@ -16,19 +16,6 @@ module.exports = {
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
         type: 'asset/resource',
-        // use: [
-        //   {
-        //     loader: 'file-loader',
-        //   },
-        //   {
-        //     loader: 'image-webpack-loader',
-        //     options: {
-        //       mozjpeg: {
-        //         progressive: true,
-        //       },
-        //     },
-        //   },
-        // ],
       },
     ],
   },
