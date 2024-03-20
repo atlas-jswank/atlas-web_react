@@ -6,6 +6,6 @@ function p(text) {
   return elm;
 }
 
-document.body.appendChild(p("Holberton Dashboard"));
-document.body.appendChild(p("Dashboard data for the students"));
-document.body.appendChild(p("Copyright - Holberton School"));
+$("body").append("<p>Holberton Dashboard</p>");
+$("body").append("<p>Dashboard data for the students</p>");
+$("body").append("<p>Copyright - Holberton School</p>");
