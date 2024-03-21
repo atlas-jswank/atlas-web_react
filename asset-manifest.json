@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.950a82e7.css",
-    "main.js": "/static/js/main.b0e9c2f8.js",
-    "static/media/logo.jpeg": "/static/media/logo.24bab5d633e36ca8d17e.jpeg",
-    "index.html": "/index.html",
-    "main.950a82e7.css.map": "/static/css/main.950a82e7.css.map",
-    "main.b0e9c2f8.js.map": "/static/js/main.b0e9c2f8.js.map"
+    "main.css": "/atlas-web_react/static/css/main.950a82e7.css",
+    "main.js": "/atlas-web_react/static/js/main.b5a04a3d.js",
+    "static/media/logo.jpeg": "/atlas-web_react/static/media/logo.24bab5d633e36ca8d17e.jpeg",
+    "index.html": "/atlas-web_react/index.html",
+    "main.950a82e7.css.map": "/atlas-web_react/static/css/main.950a82e7.css.map",
+    "main.b5a04a3d.js.map": "/atlas-web_react/static/js/main.b5a04a3d.js.map"
   },
   "entrypoints": [
     "static/css/main.950a82e7.css",
-    "static/js/main.b0e9c2f8.js"
+    "static/js/main.b5a04a3d.js"
   ]
 }
